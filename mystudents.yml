@@ -1,0 +1,23 @@
+---
+- students:
+     - name: raju
+       phone: 9491798456
+       address:
+       doorno: 789
+       streetno: 3
+       pincode: 532407
+
+      - name: shiva
+         phone: 8989898989
+          address:
+          doorno: 786
+          streetno: 4
+          pincode: 85858858
+
+
+     - name: sai
+        phone: 858585858
+          address:
+          doorno: 569
+          streetno: 5
+          pincode: 532408
