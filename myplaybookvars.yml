@@ -7,4 +7,5 @@
        myvars3: wget
     tasks:
     - name: i want to display myvar1
-      debug: "{{myvar1}}"
+      debug: 
+          msg: "{{myvar1}}"
