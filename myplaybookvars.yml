@@ -1,6 +1,5 @@
 ---
-  - hosts: 172.31.22.10
-
+  - hosts: 172.31.21.105
     become: yes
     vars:
        myvars1: git
@@ -9,4 +8,10 @@
     tasks:
     - name: i want to display myvar1
       debug: 
-         msg: "{{myvar1}}"
+         msg: "{{myvars1}}"
+        
+    
+
+
+
+   
