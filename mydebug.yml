@@ -6,6 +6,6 @@
     command: hostname -f
     register: myResult
 
-- name: i want to display myfrist task myResult
+- name: i want to display myfrist task result
   debug: 
      msg: "{{myResult}}"    
