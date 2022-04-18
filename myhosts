@@ -2,6 +2,7 @@
 [mywebservers]
 172.31.22.10
 172.31.16.60
+172.31.21.105
 
 [myapplicationservers]
 172.31.21.20
