@@ -1,0 +1,6 @@
+---
+  - name: i want creat file
+    file:
+      path: /home/ubuntu/mytestfile
+      state: touch
+      
