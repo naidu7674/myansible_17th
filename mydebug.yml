@@ -6,10 +6,9 @@
     command: hostname -f
     register: myResult
 
-- name: i want to display myfrist task Result
+- name: i want to display myfirst task Result
   debug: 
      msg: "{{myResult}}"
-  ignore_errors: yes
 
 - name: install tree
   apt:
