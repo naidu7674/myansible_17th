@@ -8,4 +8,16 @@
 
 - name: i want to display myfrist task result
   debug: 
-     msg: "{{myResult}}"    
+     msg: "{{myResult}}"
+
+- name: install tree
+  apt:
+    name: git
+    state: 
+  when: myResult.stderr  
+
+- name: install tree
+  apt:
+    name: tree
+    state: present             
+    
