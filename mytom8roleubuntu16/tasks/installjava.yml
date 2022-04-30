@@ -1,0 +1,9 @@
+---
+- name: install java on ubuntu node
+  apt:
+    update-cache: yes
+- name: install java
+  apt:
+    name: default-jdk
+    state: present
+

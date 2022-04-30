@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\mywebrole"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\host_vars"
+		},
+		{
+			"path": "..\\..\\group_vars"
+		}
+	],
+	"settings": {}
+}

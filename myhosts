@@ -5,8 +5,7 @@
 172.31.21.105
 
 [myapplicationservers]
-172.31.21.20
-172.33.21.10
+ 172.31.16.90
 
 
 [myDBservers]
